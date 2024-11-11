@@ -1,0 +1,77 @@
+/* Estilos básicos para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input de tarea */
+#inputTarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#inputTarea:focus{
+    outline: none;
+    border-color: #0267fd;
+}
+
+/* Botón de agregar tarea */
+#btnAgregar {
+    background-color: #0267fd;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#btnAgregar:hover {
+    background-color: #ffffff;
+    color: #0267fd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Lista de tareas */
+#listaTareas {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.tarea-item {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 16px;
+    color: #333131;
+}

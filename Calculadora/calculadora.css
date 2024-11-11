@@ -1,0 +1,72 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.calculadora {
+    width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Pantalla con tamaño fijo */
+.pantalla {
+    font-size: 32px;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: right;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;       /* Ancho completo del contenedor */
+    height: 60px;      /* Altura fija */
+    box-sizing: border-box; /* Incluye padding dentro del ancho/alto */
+}
+
+/* Botones */
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #000;
+}
+
+.numero { 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.operador {
+    background-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+#btnIgual { 
+    background-color: #28a745;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#btnLimpiar {
+    background-color: #dc3545;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    opacity: 0.9;
+}

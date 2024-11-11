@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calculadora.css">
+    <title>Calculadora Completa</title>
+</head>
+<body>
+    <div class="calculadora">
+        <!-- Pantalla de la calculadora (inicialmente vacía) -->
+        <div id="pantalla" class="pantalla"></div>
+        
+        <!-- Botones de la calculadora -->
+        <div class="botones">
+            <!-- Botones numéricos -->
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="operador" data-operacion="dividir">÷</button>
+            
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="operador" data-operacion="multiplicar">×</button>
+            
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button class="operador" data-operacion="restar">-</button>
+            
+            <button class="numero">0</button>
+            <button class="numero">.</button> <!-- Botón de punto decimal -->           
+            <button id="btnIgual">=</button>
+            <button class="operador" data-operacion="sumar">+</button> <!-- Botón de suma -->
+            
+            <button id="btnBorrar">←</button> <!-- Botón para borrar un solo dígito -->
+            <button id="btnLimpiar">C</button>
+        </div>
+    </div>
+
+    <script src="./calculadora.js"></script>
+</body>
+</html>
